@@ -1,0 +1,87 @@
+* {
+    border: none;
+}
+
+.primaria {
+    position: relative;
+    /* Precisa ter posição relativa para o posicionamento absoluto do container */
+    height: 100vh;
+    /* Defina a altura da div primaria como 100% da altura da viewport */
+    display: flex;
+    justify-content: center;
+    /* Alinhe o conteúdo horizontalmente no centro */
+    align-items: center;
+    /* Alinhe o conteúdo verticalmente no centro */
+}
+
+.centro {
+    position: absolute;
+    /* Posição absoluta para centralizar o container */
+}
+
+.wrapper {
+    background-image: linear-gradient(to bottom, #b8d7e5, #e9ebee);
+    font-size: 1em;
+    padding: 1em 2em;
+    border-radius: 0.7em;
+
+}
+
+.tituloLogin {
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0em;
+}
+
+.tituloCampo {
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.campo {
+    height: 2em;
+    width: 20em;
+    font-size: 0.6em;
+    border-radius: 0.7em;
+    padding-left: 0.8em;
+}
+
+.divbotaoAcesso {
+    display: flex;
+    justify-content: right;
+    margin-top: 1em;
+    
+}
+
+button {
+    height: 2em;
+    width: 5.5em;
+    font-size: 0.8em;
+    background-color: #84d2f3;
+    border-radius: 0.7em;  
+    font-weight: 700;
+    color: #1f1808;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #66bada;
+    
+}
+button:active{
+    background-color: #48a2c2;
+}
+
+.mensagem{
+    text-align: center;
+    font-size: 0.8em;
+    margin: 1em;
+}
+
+.sucesso{
+    color: #48a2c2;
+}
+
+.erro{
+    color: #a40b05;
+}
